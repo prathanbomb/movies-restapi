@@ -4,13 +4,11 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
-
 	"gopkg.in/mgo.v2/bson"
-
 	"github.com/gorilla/mux"
-	. "github.com/mlabouardy/movies-restapi/config"
-	. "github.com/mlabouardy/movies-restapi/dao"
-	. "github.com/mlabouardy/movies-restapi/models"
+	. "github.com/prathanbomb/movies-restapi/config"
+	. "github.com/prathanbomb/movies-restapi/dao"
+	. "github.com/prathanbomb/movies-restapi/models"
 )
 
 var config = Config{}
