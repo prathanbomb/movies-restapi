@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"gopkg.in/mgo.v2/bson"
 	"github.com/gorilla/mux"
-	"github.com/prathanbomb/movies-restapi/config"
-	"github.com/prathanbomb/movies-restapi/dao"
-	"github.com/prathanbomb/movies-restapi/models"
+	"movies-restapi/config"
+	"movies-restapi/dao"
+	"movies-restapi/models"
 )
 
 var config = Config{}
