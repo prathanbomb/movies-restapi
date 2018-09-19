@@ -2,7 +2,7 @@ package dao
 
 import (
 	"log"
-	. "github.com/prathanbomb/movies-restapi/models"
+	"movies-restapi/models"
 	mgo "gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )
